@@ -1,5 +1,34 @@
-.caixa {
-  background: grey;
-  height: 120px;
-  width: 120px;
+* {
+  margin: 0;
+  padding: 0;
 }
+
+p {
+  color: red;
+}
+
+body div section p,
+body div section h1 {
+  color: blue;
+  padding: 5px;
+}
+
+.section2 {
+  color: yellow;
+  background: grey;
+  padding: 2px;
+  border: 2px;
+  margin: 2px;
+}
+
+.contact p {
+  background: black;
+  margin: 5px;
+  color: white;
+}
+
+.pai h1~p {
+  color: blue;
+}
+
+
