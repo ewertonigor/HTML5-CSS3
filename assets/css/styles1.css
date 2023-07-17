@@ -1,0 +1,56 @@
+.button-contact, .link-contact {
+  transition: all 300ms ease-in-out;
+}
+
+.button-contact:hover {
+  background: grey;
+}
+
+.link-contact {
+  color: gold;
+  background-color: grey;
+  padding: 5px;
+}
+
+.link-contact:link {
+  color: blue;
+}
+
+.link-contact:visited {
+  color: orange;
+}
+
+.link-contact:hover {
+  background: darkslateblue;
+  color: white;
+  text-decoration: none;
+}
+
+.link-contact:active {
+  background: darkslategray;
+  color: white;
+  text-decoration: none;
+}
+
+input:focus {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  outline: none;
+  border: 1px solid black;
+}
+
+input:disabled {
+  background-color: red;
+  cursor: not-allowed;
+}
+
+.button-check:checked + p {
+  background: yellow;
+}
+
+.father .listed li:first-child {
+  background: rebeccapurple;
+}
+
+.input-father:required {
+  background: greenyellow;
+}
