@@ -1,0 +1,17 @@
+/*
+ID
+CLASSES, ATRIBUTOS e PSEUDO-CLASSES
+ELEMENTOS E PSEUDO-ELEMENTOS
+*/
+
+#p {
+  background: grey;
+}
+
+#p.p {
+  background: yellow;
+}
+
+body#b .b-class p#p.p::selection:hover {
+  background: darkcyan;
+}
